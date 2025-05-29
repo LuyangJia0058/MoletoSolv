@@ -21,3 +21,13 @@ The `/data/` folder contains the following files:
 - `solvent_parameters.csv`: Physically inspired descriptors for each solvent.
 
 These files are required for training, prediction, and validation tasks.
+
+## 📁 Model Files and Usage
+
+The project contains three model directories: `neutral/`, `anion/`, and `cation/`, each corresponding to a solvation free energy predictor for the respective solute type.
+
+- Each folder includes a `dataset.csv` file, which contains the features used for model input.
+- To perform prediction, simply run the main script:
+
+```bash
+python MoletoSolv.py
