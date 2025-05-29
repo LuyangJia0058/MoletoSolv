@@ -11,3 +11,13 @@ Three separate models have been developed for different types of solutes:
 - A model for predicting the solvation free energies of **cations**.
 
 This study extends our previously published model for predicting hydration free energies of neutral solutes (*J. Phys. Chem. Lett. 2023, 14, 1877–1884*), significantly enhancing its applicability to **ionic systems** and **non-aqueous environments**.
+
+## 📂 Data Files
+
+The `/data/` folder contains the following files:
+
+- `prediction_results.csv`: Output file containing predicted solvation free energies for solutes in various solvents. Each row corresponds to a solute–solvent pair.
+- `solutes_xyz.zip`: A ZIP archive containing `.xyz` files of solute molecules. All geometries were computed at the **B3LYP/def2-TZVPD** level of theory.
+- `solvent_parameters.csv`: Physically inspired descriptors for each solvent.
+
+These files are required for training, prediction, and validation tasks.
