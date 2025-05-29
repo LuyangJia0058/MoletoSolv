@@ -16,7 +16,7 @@ This study extends our previously published model for predicting hydration free 
 
 The `/data/` folder contains the following files:
 
-- `prediction_results.csv`: Output file containing predicted solvation free energies for solutes in various solvents. Each row corresponds to a solute–solvent pair.
+- `prediction_results.csv`: Output file containing predicted solvation free energies for solutes in various solvents. 
 - `solutes_xyz.zip`: A ZIP archive containing `.xyz` files of solute molecules. All geometries were computed at the **B3LYP/def2-TZVPD** level of theory.
 - `solvent_parameters.csv`: Physically inspired descriptors for each solvent.
 
