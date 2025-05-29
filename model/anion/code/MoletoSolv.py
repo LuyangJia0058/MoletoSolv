@@ -36,7 +36,7 @@ def getIntitialDataSet(strPath):
 
     print("\nLoading and preprocessing initial dataset...")
 
-    strFilePath = BASISDIR + "features.csv"
+    strFilePath = BASISDIR + "datasets.csv"
     arrRawData = np.genfromtxt(strFilePath, np.dtype(str), delimiter=",")
 
     nCol = arrRawData.shape[1]-1 
